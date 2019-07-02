@@ -12,6 +12,8 @@ public class SampleConrtoller {
 		return "sample/main";
 	}
 	
+
+	@RequestMapping("/master.do")
 	public String master() {
 		return "master";
 	}
